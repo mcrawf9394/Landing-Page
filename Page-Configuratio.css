@@ -2,10 +2,11 @@
     background-color: #1f2937;
     width:100%;
 }
-.Navigation-Bar {
+#Navigation {
+    display: flex;
     flex: 1 1 1;
-    align-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 #Header-Logo {
     fill: #f9faf8;
@@ -14,12 +15,15 @@
     display: flex;
     flex: 1 1 1;
     align-items: center;
-    align-content: space-between;
-    width:100%;
+    justify-content: space-between;
+}
+#info {
+    margin-left: 30px;
 }
 img {
     width: 274px;
     height: 274px;
+    margin-right: 30px;
 }
 .btn {
     background-color: #3882f6;
@@ -27,7 +31,15 @@ img {
 .Additional-Information {
     display: flex;
     flex:1 1 1;
-    align-content: center;
+    align-content:center ;
+    justify-content: center;
+}
+#Quote-Div {
+    background-color: #e5e7eb;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 10vh;
 }
 .Image-Description {
     align-content: center;
@@ -46,8 +58,15 @@ a {
     size: 18px;
     color: #e5e7eb;
 }
-.h3 {
+h3 {
     size: 36px;
     color: #1f2937;
+}
+#Head-Middle {
     font-weight: bolder;
+    text-align: center;
+}
+.Quote-Text {
+    font-weight: lighter;
+    font-style: italic;
 }
