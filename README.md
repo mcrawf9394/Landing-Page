@@ -2,7 +2,7 @@
 Odin Project Landing Page
 Thanks to andsproject on Pixabay
 Image made by: Andri Tegar Mahardika
-Svg souced from getbootstrap.com
+Svg sourced from getbootstrap.com
 https://icons.getbootstrap.com/icons/diamond-fill/
 https://icons.getbootstrap.com/icons/basket-fill/
 https://icons.getbootstrap.com/icons/book/
