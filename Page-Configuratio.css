@@ -1,21 +1,21 @@
 #Header {
     background-color: #1f2937;
+    width:100%;
 }
 .Navigation-Bar {
     flex: 1 1 1;
-    align-content: space-evenly;
+    align-content: space-between;
     align-items: center;
 }
 #Header-Logo {
-    width: 50%;
     fill: #f9faf8;
 }
 #Header-Link-One {
     display: flex;
-    flex: 1 1 0;
-    align-content: space-around;
+    flex: 1 1 1;
     align-items: center;
-    width: fit-content;
+    align-content: space-between;
+    width:100%;
 }
 img {
     width: 274px;
@@ -23,6 +23,15 @@ img {
 }
 .btn {
     background-color: #3882f6;
+}
+.Additional-Information {
+    display: flex;
+    flex:1 1 1;
+    align-content: center;
+}
+.Image-Description {
+    align-content: center;
+    margin: 20px;
 }
 h1 {
     color: #f9faf8;
@@ -36,4 +45,9 @@ h2 {
 a {
     size: 18px;
     color: #e5e7eb;
+}
+.h3 {
+    size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
 }
