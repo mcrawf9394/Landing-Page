@@ -4,16 +4,30 @@
 .Navigation-Bar {
     flex: 1 1 1;
     align-content: space-evenly;
+    align-items: center;
 }
 #Header-Logo {
     width: 50%;
     fill: #f9faf8;
 }
-img {
-    max-inline-size: 50%;
+#Header-Link-One {
+    display: flex;
+    flex: 1 1 0;
+    align-content: space-around;
+    align-items: center;
+    width: fit-content;
 }
-button {
-    color: #3882f6;
+img {
+    width: 274px;
+    height: 274px;
+}
+.btn {
+    background-color: #3882f6;
+}
+h1 {
+    color: #f9faf8;
+    size: 48px;
+    font-weight: bolder;
 }
 h2 {
     size: 18px;
