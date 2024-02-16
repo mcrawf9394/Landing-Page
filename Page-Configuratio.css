@@ -27,6 +27,7 @@ img {
 }
 .btn {
     background-color: #3882f6;
+    color: #e5e7eb;
 }
 .Additional-Information {
     display: flex;
@@ -69,4 +70,22 @@ h3 {
 .Quote-Text {
     font-weight: lighter;
     font-style: italic;
+}
+#Call-Head-Text {
+    size: 36px;
+    color: #f9faf8;
+}
+#Call-Container {
+    border: white;
+    border-style: solid;
+    border-width: 10vh 7vw;
+    background-color: #3882f6;
+    display: flex;
+    flex: 1 1 1;
+    align-items: center;
+    justify-content: space-around;
+}
+footer {
+    background-color: #1f2937;
+    text-align: center;
 }
